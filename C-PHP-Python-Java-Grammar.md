@@ -36,9 +36,15 @@ Basic
 	conditionals
 
 	loop	iteration
+	nested loop
+			break loop_name;
+			break 2 ;
+			break (2);
 
-	reference dtypes, methods and properties
-		Java 	list
+	reference date types, methods and properties
+		Java 	Integer
+					obj.MAX_VALUE; obj.MIN_VALUE;
+				list
 				set
 				stack
 				arrays
@@ -68,7 +74,8 @@ Basic
 				string
 					obj.strip()
 				dict
-		PHP  	array
+		PHP  	PHP_INT_MAX; PHP_INT_MIN
+				array
 				    count()
 				string
 					strlen()
@@ -81,12 +88,13 @@ Basic
 	exception
 
 	function
-		parameters and returns
-		recursion
-		built-in functions
+		function in a class
+			parameters and returns
 			constructor
+			private vs protected
+		built-in function
 			sort
-		private vs protected
+			recursion
 
 	print
 		PHP
